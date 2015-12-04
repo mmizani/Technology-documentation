@@ -22,10 +22,11 @@ Command + t = toggle between active/deactivate sampler
 `./jmeter -n -t test.jmx -l testoutputifyouwantit.jtl` (or .csv)
 
 ###variable swap for hostname
-- Can use the command line to enter a variable by typing 
+- Can use the command line to enter a variable by typing   
 `-JTestIP=10.0.0.1`
-- Then in the project whereever you need it you can use this to access it
-`${__P(TestIP)}`
+- Then in the project whereever you need it you can use this to access it  
+`${__P(TestIP)}`  or `${__property(TestIP)}`
+
 
 ###Troubleshoot
 - When using threads and loops you have to enable the scheduler and set an amount of time to run =< the time it takes to run the test.  I let this be an arbitrarily long amount of time
