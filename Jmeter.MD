@@ -13,4 +13,4 @@ Command + t = toggle between active/deactivate sampler
 
 - Open firefox then -> properties -> network -> connection settings
 
-- Choose manual proxy settings and choose HTTP and SSH using port ftom HTTP recorder
+- Choose manual proxy settings and choose HTTP and SSH using __localhost__ and port ftom HTTP recorder
